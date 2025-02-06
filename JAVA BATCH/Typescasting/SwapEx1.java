@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class SwapEx1
+{
+	public static void main(String []args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Value of a: ");
+		int a = sc.nextInt();//2
+		System.out.print("Enter value of b: ");
+		int b = sc.nextInt();//3
+		b = a+b; //5
+		a = b-a; //3
+		b = b-a; //2
+		System.out.println("After swapping a ad b ");
+		System.out.println("a " +a);
+		System.out.println("b " +b);
+
+	}
+}
+

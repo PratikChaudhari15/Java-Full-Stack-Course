@@ -1,0 +1,10 @@
+class FloatWidening
+{
+	public static void main(String [] args)
+	{
+		float a = 3;
+		double b = a;
+		System.out.println("convert to double "+b);
+	
+	}
+}

@@ -1,0 +1,20 @@
+class ShortWidening
+{
+	public static void main(String [] args)
+	{
+		short a = 3;
+		char b = a;
+		System.out.println("convert to int "+b);
+
+		long c = a;
+		System.out.println("convert to long "+c);
+
+		float d = a;
+		System.out.println("convert to float "+d);
+
+		double e = a;
+		System.out.println("convert to double "+e);
+
+	
+	}
+}

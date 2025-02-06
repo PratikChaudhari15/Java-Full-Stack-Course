@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Season
+{
+	public static void main(String []args)
+	{
+		Scanner sc= new Scanner (System.in);
+		System.out.print("Enter month ");
+		String month=sc.next().toUpperCase();
+		
+		String op=(month.equals("Oct") || month.equals("Nov") || month.equals("Dec") || month.equals("Jan") )?(month+ " Is Winter Month"):((month.equals("Feb") || month.equals("Mar") || month.equals("Apr") || month.equals("May"))?(month + "Is Summer month"):((month.equals("Jun") || month.equals("july") || month.equals("Aug") || month.equals("Sep") )?(month+ " Is Monsoon Month"):("this month dosent exist")));
+
+		System.out.print(op);
+
+	}
+}

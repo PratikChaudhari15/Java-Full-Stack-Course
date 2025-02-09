@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class UserMarks
+{
+	public static void main(String []args)
+	{
+		Scanner sc= new Scanner (System.in);
+		System.out.print("Enter total marks: ");
+		float marks=sc.nextFloat();
+
+		float permarks= (marks*100.0f)/600.0f;
+		System.out.println(permarks+ " is your Percentage");
+
+		String op=(permarks>35)?("you are pass"):("you are fail");
+		System.out.println(op);
+
+	}
+}

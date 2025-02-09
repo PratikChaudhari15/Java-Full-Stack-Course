@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class SumOfDigit
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a Number: ");//num is init
+		int num = new Scanner(System.in).nextInt(); //123
+		int dup = num ;
+		int sum = 0; //3
+		//0>0 -> false then terminated
+		while(num>0)//cond
+		{
+			//1%10 -> 1 rem
+			int rem = num%10; //last digit
+			sum +=rem ; //5+1 = 6
+			//1/10 =0num
+			num/=10; //update by removing the last digit 
+			System.out.println(sum);
+			System.out.println(dup);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class HealthApp
+{
+	public static void main(String[]args)
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter weight in pounds");
+		double weight = sc.nextDouble();
+
+
+	}
+
+}

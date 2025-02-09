@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class ProductOfDigit
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter A Number: ");
+		int num=sc.nextInt();
+		int rem=0;
+		int even =1;
+		int odd = 1;
+		while(num>0)
+		{
+			rem =num%10;
+			if(rem%2==0)
+			{
+				even *=rem;
+			}
+
+			if(rem%2!=0)
+			{
+				odd *=rem;
+			}
+			num/=10;
+		}
+		System.out.print("even number product is : "+even);
+		System.out.print("odd number product is : "+odd);
+	}
+}

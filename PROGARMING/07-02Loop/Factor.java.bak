@@ -1,9 +1,7 @@
 import java.util.Scanner;  // Import Scanner class for user input
 
-class Factor 
-	{
-    public static void main(String[] args) 
-		{
+class Factor {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Create Scanner object to take input from the user
         
         System.out.println("Enter the number: ");

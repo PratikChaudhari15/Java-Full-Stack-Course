@@ -1,0 +1,28 @@
+import java.util.Scanner;  // Import Scanner class to take user input
+
+class PowerOfNumber
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);  // Create Scanner object for input
+
+        int num;   // Variable to store the base number
+        int pow;   // Variable to store the exponent (power)
+        int powRes = 1;  // Variable to store the result (initially 1)
+
+        // Taking input from user
+        System.out.println("Enter Number : ");
+        num = sc.nextInt();  // Read base number
+        System.out.println("Enter Power : ");
+        pow = sc.nextInt();  // Read exponent
+
+        // Loop to multiply num 'pow' times
+        for (int i = 0; i < pow; i++)  
+        {
+            powRes = powRes * num;  // Multiply base number in each iteration
+        }
+
+        // Display the result
+        System.out.println("Power Of " + num + " Is " + powRes);
+    }
+}

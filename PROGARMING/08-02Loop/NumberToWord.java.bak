@@ -1,1 +1,63 @@
+import java.util.Scanner;
 class NumberToWord
+{
+	public static void main(String[]args)
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.print("Enter A num: ");
+		int num = sc.nextInt();//123
+		int rem ;
+		String chars =""; 
+		int dup = num;
+
+		while (num>0)
+		{
+			rem = num%10;
+			switch (rem)
+			{
+				case 1:
+					chars ="one "+chars;
+					break;
+
+				case 2:
+					chars ="Two "+chars;
+					break;
+
+				case 3:
+					chars ="Three "+chars;
+					break;
+
+				case 4:
+					chars ="Four "+chars;
+					break;
+
+				case 5:
+					chars ="Five "+chars;
+					break;
+
+				case 6:
+					chars ="SIx "+chars;
+					break;
+
+				case 7:
+					chars ="Seven "+chars;
+					break;
+
+				case 8:
+					chars ="Eight "+chars;
+					break;
+
+				case 9:
+					chars ="Nine "+chars;
+					break;
+
+				case 0:
+					chars ="Zero "+chars;
+					break;
+			}
+			num/=10;
+		}
+		System.out.println(chars);
+
+	}
+}

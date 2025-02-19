@@ -1,5 +1,4 @@
 import java.util.Scanner;  // Import Scanner class for user input
-
 class Q88CognizantCompany {
     public static void main(String[] args) {
         int[] arr = new int[128];  // Array to store frequency of ASCII characters (0-127)

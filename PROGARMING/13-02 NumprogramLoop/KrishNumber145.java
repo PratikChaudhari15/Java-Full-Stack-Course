@@ -1,4 +1,4 @@
-class KrishNumber145
+class KrishNumber145//KrishMurti Number is also called as PeterSon Number 
 {
 	public static void main(String[]args)
 	{

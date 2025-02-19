@@ -1,5 +1,4 @@
 import java.util.Scanner;  // Import Scanner class for user input
-
 class Q88TechNumber //(20+25)^2 = (45)^2 =2025is tech no
 {
     public static void main(String[] args) {

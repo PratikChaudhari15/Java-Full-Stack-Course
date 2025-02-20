@@ -1,9 +1,9 @@
-class Pattern94
+class Pattern95
 {
 	public static void main(String[] args) 
 	{
 		int num=5;
-		for (int i= 5 ;i>=1 ;i-- ) 
+		for (int i= 1 ;i<=num ;i++ ) 
 		{
 			for (int j =1;j<=i ;j++) 
 			{
@@ -13,12 +13,13 @@ class Pattern94
 		}
 	}
 }
+
 /*
 
-* * * * *
-* * * *
-* * *
-* *
 *
+* *
+* * *
+* * * *
+* * * * *
 
 */

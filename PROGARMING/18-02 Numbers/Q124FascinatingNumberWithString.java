@@ -1,5 +1,7 @@
-class FascinatingNumber
+class Q124FascinatingNumberWithString
 {
+	//A fascinating number is a positive integer, with at least three digits, which, when multiplied by 2 and 3, and subsequently concatenated with the original number, produces a string containing all digits from 1 to 9 exactly once. No zeros are permitted in the resulting string
+	// 192 is a fascinating number because: 192 * 2 = 384, 192 * 3 = 576, and Concatenating these results: 192384576.
 	public static void main(String[] args)
 	{
 		int num= 327; //192

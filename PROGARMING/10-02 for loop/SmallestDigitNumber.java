@@ -6,14 +6,19 @@ class SmallestDigitNumber
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter A number");
 		int num = sc.nextInt();
-		int max =9;
-		for(int i = num;i>0;i/=10)
+		int min=9;
+		int rem;
+
+		while(num>0)
 		{
-			int dgt = i%10;
-			if(max>dgt)
-				max=dgt;
+			rem=num%10;
+			if (min>rem) 
+			{
+				min=rem;	
+			}
+			num/=10;
 		}
-		System.out.println("Smallest Digit From Number is "+max);
+		System.out.println("Smallest Digit From Number is "+min);
 	}
 
 }

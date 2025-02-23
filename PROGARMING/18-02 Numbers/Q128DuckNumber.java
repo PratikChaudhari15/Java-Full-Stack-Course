@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Q128DuckNumber {
     // A Duck Number is a number that:
     // - Contains at least one '0' in its digits

@@ -3,7 +3,6 @@ class Q127BuzzNumber {
     // A Buzz Number is a number that:
     // 1. Is divisible by 7 OR
     // 2. Ends with the digit 7 (e.g., 7, 17, 27, etc.)
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Create Scanner object for user input
         System.out.print("Enter a Number: "); // Prompt the user to enter a number

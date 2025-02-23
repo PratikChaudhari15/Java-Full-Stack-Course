@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 class Q132AutomorphicNum
 // An Automorphic Number is a number whose square ends with the same number.

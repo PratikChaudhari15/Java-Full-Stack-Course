@@ -1,14 +1,11 @@
 import java.util.Scanner;
-
 class Q129SpyNumber {
     // A Spy Number is a number where:
     // - The sum of its digits is equal to the product of its digits.
     // Example: 123 → 1+2+3 = 6, 1×2×3 = 6 → Spy Number
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Create Scanner object
         System.out.print("Enter a Number: "); // Prompt user input
-
         int num = sc.nextInt(); // Read input number
         int sum = 0; // To store sum of digits
         int mul = 1; // Initialize to 1 for multiplication

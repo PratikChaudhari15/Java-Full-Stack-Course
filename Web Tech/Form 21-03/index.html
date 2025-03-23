@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=for, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Please Fill this Form</h1>
+    <div class="div">
     <form action="">
-        <input type="text"><br><br>
-        <input type="text"><br><br>
-        <input type="button" value="Submit">
-
+        <h1>Please Fill this Form</h1>
+        <input type="text" placeholder="Enter name"><br><br>
+        <input type="email" name="email" placeholder="Enter your email"><br><br>
+        <input type="datetime-local" name="" id=""><br><br>
+        <input type="datetime" name="" id="" value="2021-06-01T13:00:00"><br><br>
+        <input type="tel" placeholder="Enter your phone number"><br><br>
+        <input type="password" placeholder="Enter your password"><br><br>
+        <input type="file" name="file" id="file"><br><br>
+        <input id="radio" type="radio" name="" >
+        <label for="radio">I accept the file is correct</label>  <br><br>
+        <input type="range" name="rangeInput" min="0" max="100" step="1">Range<br><br>
+        <input id="termsCheckbox" type="checkbox"> 
+        <label for="termsCheckbox">I accept All the terms and Conditions</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">  
     </form>
+</div>
 </body>
 </html>

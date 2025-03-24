@@ -1,5 +1,4 @@
 import java.util.Scanner; // Import Scanner class for user input
-
 class Palindrome
 {
     public static void main(String[] args)

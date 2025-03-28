@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Form </h1>
+    <form action="">
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="name">Name - </label>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <label for="email">Email - </label>
+            <input type="email" placeholder="Enter Your Email"><br><br>
+            <label for="phone">Phone - </label>
+            <input type="tel" placeholder="Enter Your Phone Number"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="Age">Age - </label>
+            <input type="number" placeholder="Enter Your Age"><br><br>
+            <label for="Gender">Gender- </label>
+            <select name="Gender" id="">
+                <option value="">Select Gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+            <br><br>
+            <label for="Detail">When did you first know you want to be a Zoo keeper?</label>
+            <textarea rows="3" cols="20" placeholder="Enter Your Answer" ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Pick your fav Animal</legend>
+
+            <input type="checkbox" name="" id="">lion 
+            <input type="checkbox" name="" id="">Tiger
+            <input type="checkbox" name="" id="">Elephant
+            <input type="checkbox" name="" id="">Giraffe
+            <br><br>
+            <input type="checkbox" name="" id="">Monkey
+            <input type="checkbox" name="" id="">Panda
+            <input type="checkbox" name="" id="">Zebra
+            <input type="checkbox" name="" id="">Kangaroo
+        </fieldset><br><br>
+        <input type="submit" value="Submit Application">
+    </form>    
+</body>
+</html>

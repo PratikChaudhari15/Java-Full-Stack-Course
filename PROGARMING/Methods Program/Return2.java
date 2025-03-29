@@ -5,7 +5,7 @@ class Return2
 		String Fullname=mergeName("Pratik","Chaudhari");
 		System.out.println(Fullname);
 	}
-	public static String mergeName(String fName,String lName)
+	public static void String mergeName(String fName,String lName)
 	{
 		String ans= fName+lName;
 		return ans;

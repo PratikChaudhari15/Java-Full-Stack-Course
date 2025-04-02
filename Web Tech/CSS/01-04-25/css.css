@@ -1,0 +1,42 @@
+
+p{color: blue;
+}
+p+div{color: red;
+}
+p~div{color: green;
+}
+p>div{color: yellow;
+}
+p>div+div{color: orange;
+}
+p>div~div{color: purple;
+}
+p+div>div{color: pink;
+}
+p+div~div>div{color: brown;
+}
+p>div+div>div{color: gray;
+}
+p>div~div>div{color: black;
+}
+p+div>div+div{color: white;
+}
+p+div~div+div{color: cyan;
+}
+p>div+div~div{color: magenta;
+}
+p::first-letter{color: teal;
+}
+p::first-line{color: navy;
+}   
+
+ul>.apple::marker{content: "🍎";
+}
+ul>.banana::marker{content: "🍌";
+}
+ul>.orange::marker{content: "🍊";
+}
+ul>.grapes::marker{content: "🍇";
+}
+ul>.kiwi::marker{content: "🥝";
+}

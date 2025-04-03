@@ -1,0 +1,60 @@
+/* input:hover {
+  background:  orange;
+  
+}
+button:hover {
+  background: rgb(47, 213, 186);
+}
+p{
+    background: lightslategray;
+    display: none;
+}
+button:hover+p{
+    display: block;
+    background: lightslategray;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+} */
+ /* -------------------------------------- */4
+
+ /* div:first-child{
+    background: blue;
+}
+section:last-child
+{
+    background: green;
+}
+section:nth-child(3){
+    background: red;
+} */
+/* ---------------------------------------- */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+
+}
+td{
+    padding: 12px;
+    border: 1px solid black;
+
+}
+tr:nth-child(even){
+    background: rgb(244, 201, 60);
+
+}
+tr:nth-child(odd){
+    background: rgb(203, 121, 98);
+}
+td:nth-child(even){
+    background: rgb(98, 141, 227);
+}
+td:nth-child(odd){
+    background: rgb(189, 48, 170);
+}

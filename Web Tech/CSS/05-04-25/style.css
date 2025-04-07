@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bgimg{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    background-image: repeating-radial-gradient(black 15%,white 20%);
+}

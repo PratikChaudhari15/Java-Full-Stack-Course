@@ -20,7 +20,7 @@ class Students1
 		// Using 'this' to refer to instance variables (distinguish from local parameters)
 		this.name = name;
 		this.age = age;
-		this.collage = collage;
+		this.collage = collage ;
 		this.degree = degree;
 		this.roll = roll;
 	}

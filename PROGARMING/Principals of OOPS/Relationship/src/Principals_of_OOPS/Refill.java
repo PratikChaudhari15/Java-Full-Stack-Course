@@ -1,5 +1,5 @@
 package Principals_of_OOPS;
-
+//Earlyy Binding
 public class Refill 
 {
 	// Attributes of Refill
@@ -13,7 +13,7 @@ public class Refill
 		this.color = color;
 		this.size = size;
 		this.refilltype = refilltype;
-	}
+	} 
 
 	// Method to display refill details
 	public void displayRefill()

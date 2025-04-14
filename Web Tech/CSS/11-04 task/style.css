@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    animation-name: box;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+.box1{
+    background: rgba(236, 177, 218, 0.626);
+    width: 60vh;
+    height: 60vh;    
+}
+.box2{
+    background: rgb(236, 177, 218);
+    width: 50vh;
+    height: 50vh;    
+}
+.box3{
+    background: rgb(235, 155, 211);
+    width: 40vh;
+    height: 40vh;    
+}
+.box4{
+    background: rgb(233, 121, 199);
+    width: 30vh;
+    height: 30vh;    
+}
+.box5{
+    background: rgb(228, 85, 185);
+    width: 20vh;
+    height: 20vh;    
+}
+.box6{
+    background: rgb(234, 37, 175);
+    width: 10vh;
+    height: 10vh;    
+}
+
+@keyframes box{
+    to{
+        transform: rotate(360deg);
+    }
+}

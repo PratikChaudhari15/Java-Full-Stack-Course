@@ -1,7 +1,8 @@
 package Principals_of_OOPS;
-
+//Earlyy Binding
 public class pendriver 
 {
+	
 	public static void main(String[] args)
 	{
 		// Create a Pen object with refill

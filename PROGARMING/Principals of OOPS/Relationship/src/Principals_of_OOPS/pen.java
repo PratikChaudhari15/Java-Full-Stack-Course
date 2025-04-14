@@ -1,5 +1,5 @@
 package Principals_of_OOPS;
-
+//Earlyy Binding
 public class pen 
 {
 	// Attributes of pen

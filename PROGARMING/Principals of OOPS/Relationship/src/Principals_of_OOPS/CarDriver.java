@@ -1,5 +1,5 @@
 package Principals_of_OOPS;
-
+//Earlyy Binding
 public class CarDriver 
 {
 	public static void main(String[] args) 

@@ -1,5 +1,5 @@
 package Principals_of_OOPS;
-
+//Earlyy Binding
 public class Engine 
 {
 	int horsepower;       // Horsepower of the engine

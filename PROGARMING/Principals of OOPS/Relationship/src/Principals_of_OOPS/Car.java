@@ -1,5 +1,5 @@
 package Principals_of_OOPS;
-
+//Earlyy Binding
 public class Car 
 {
 	String brand;          // Brand of the car

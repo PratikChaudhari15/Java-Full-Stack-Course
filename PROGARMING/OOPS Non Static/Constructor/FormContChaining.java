@@ -13,7 +13,7 @@ class FormContChaining
 	// 💠 Default constructor
 	FormContChaining()
 	{
-		// No initialization, all variables will have default values
+		// No initialization, all variables will have default value
 	}
 
 	// 💠 Constructor with 4 parameters

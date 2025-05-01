@@ -131,7 +131,7 @@ nav>div>a>abbr>i {
 h2 {
     font-size: 28px;
     font-weight: bold;
-    color: gray;
+    color: rgb(190, 184, 184);
 }
 
 hr {
@@ -166,7 +166,7 @@ hr {
 .ssc h3 {
     font-size: 20px;
     margin-bottom: 5px;
-    color: gray;
+    color: rgb(190, 184, 184);
 }
 .languages{
     margin-bottom: 100px;
@@ -189,18 +189,106 @@ hr {
 
 h3 {
     font-size: 30px;
-    color: gray;
+    color: rgb(190, 184, 184);
 }
 
 h1 {
     font-size: 50px;
-    color: gray;
+    color: rgb(190, 184, 184);
 }
 
 p {
     font-size: 19px;
     color: gray;
 }
+.skills_section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #434343, #000000);
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .Name {
+    text-align: center;
+    color: white;
+  }
+  
+  .Name h1 {
+    font-size: 36px;
+  }
+  
+  .skills_container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .skills1 {
+    width: 45%;
+    height: 100%;
+    /* background-color: #840909; */
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    
+  }
+  
+  .skills2 {
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+.container { 
+    background-color: rgb(72, 72, 72); 
+    width: 80%; 
+    border-radius: 15px; 
+    margin: auto;   
+    padding: 20px;
+} 
+
+.skill { 
+    background-color: rgb(116, 194, 92); 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+
+.html { 
+    width: 95%; 
+} 
+
+.css { 
+    width: 90%; 
+} 
+.Bootstrap { 
+    width: 80%; 
+} 
+.JavaScript { 
+    width: 40%; 
+} 
+.SQL { 
+    width: 90%; 
+} 
+.PostgreSQL { 
+    width: 80%; 
+} 
+.JAVA { 
+    width: 60%; 
+} 
+.Manual { 
+    width: 60%; 
+} 
+
 .project_section{
     width: 100vw;
     height: 100vh;
@@ -431,6 +519,74 @@ p {
     border: 2px solid white;
     box-shadow: 0px 0px 10px white;
 }
+
+.Internships_section{
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+}
+.Internships_container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    /* background-color: blueviolet; */
+}
+.intern1{
+    width: 40%;
+    height: 100%;
+    background-color: #1e1e1e;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.intern2{
+    width: 40%;
+    height: 100%;
+    background-color: #1e1e1e;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.intern1>img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.intern2>img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.intern1:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.intern2:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+
+
+
 
 
 @media (max-width: 768px) {

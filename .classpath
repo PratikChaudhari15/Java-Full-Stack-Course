@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="Collections/src"/>
+	<classpathentry excluding="Patterns/Pattern Tejas SIr/|Patterns/18-02Pattern/|Swaping/|Typescasting/Wideing/|Patterns/Pattern 15-02/|Even ODD/|Typescasting/Narroowing/|Patterns/17-02 Pattern/" kind="src" path="JAVA BATCH"/>
+	<classpathentry kind="src" path="JAVA BATCH/Even ODD"/>
+	<classpathentry kind="src" path="JAVA BATCH/Patterns/17-02 Pattern"/>
+	<classpathentry kind="src" path="JAVA BATCH/Patterns/18-02Pattern"/>
+	<classpathentry kind="src" path="JAVA BATCH/Patterns/Pattern 15-02"/>
+	<classpathentry kind="src" path="JAVA BATCH/Patterns/Pattern Tejas SIr"/>
+	<classpathentry kind="src" path="JAVA BATCH/Swaping"/>
+	<classpathentry kind="src" path="JAVA BATCH/Typescasting/Narroowing"/>
+	<classpathentry kind="src" path="JAVA BATCH/Typescasting/Wideing"/>
+	<classpathentry kind="src" path="PROGARMING/February/04-02 Loop"/>
+	<classpathentry kind="src" path="PROGARMING/February/05-02 LOOP"/>
+	<classpathentry kind="src" path="PROGARMING/February/07-02Loop"/>
+	<classpathentry kind="src" path="PROGARMING/February/08-02Loop"/>
+	<classpathentry kind="src" path="PROGARMING/February/10-02 for loop"/>
+	<classpathentry kind="src" path="PROGARMING/February/11-02 LOOPS"/>
+	<classpathentry kind="src" path="PROGARMING/February/12-02 Loop"/>
+	<classpathentry kind="src" path="PROGARMING/February/13-02 NumprogramLoop"/>
+	<classpathentry kind="src" path="PROGARMING/February/15-02 NumberLoop"/>
+	<classpathentry kind="src" path="PROGARMING/February/18-02 Numbers"/>
+	<classpathentry kind="src" path="PROGARMING/February/20-02 Number"/>
+	<classpathentry kind="src" path="PROGARMING/February/Mock TEST 22-02"/>
+	<classpathentry kind="src" path="PROGARMING/IMP Rev Progam"/>
+	<classpathentry kind="src" path="PROGARMING/January/20-01 BASIC"/>
+	<classpathentry kind="src" path="PROGARMING/January/21-01"/>
+	<classpathentry kind="src" path="PROGARMING/January/22-01"/>
+	<classpathentry kind="src" path="PROGARMING/January/23-01"/>
+	<classpathentry kind="src" path="PROGARMING/January/24-01 Op"/>
+	<classpathentry kind="src" path="PROGARMING/January/25-01 op"/>
+	<classpathentry kind="src" path="PROGARMING/January/26-01 op"/>
+	<classpathentry kind="src" path="PROGARMING/January/28-01"/>
+	<classpathentry kind="src" path="PROGARMING/January/31-01"/>
+	<classpathentry excluding="prime no/" kind="src" path="PROGARMING/January/conditional op"/>
+	<classpathentry kind="src" path="PROGARMING/January/conditional op/prime no"/>
+	<classpathentry kind="src" path="PROGARMING/January/loop"/>
+	<classpathentry kind="src" path="PROGARMING/Method Overloading"/>
+	<classpathentry kind="src" path="PROGARMING/Methods Program"/>
+	<classpathentry kind="src" path="PROGARMING/OOPS Non Static/27-03"/>
+	<classpathentry kind="src" path="PROGARMING/OOPS Non Static/Constructor"/>
+	<classpathentry kind="src" path="PROGARMING/OOPS Non Static/Method Chaiing"/>
+	<classpathentry kind="src" path="PROGARMING/Practise/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/Abstraction/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/Derived_TypeCasting/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/Encapsulation/Programs/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/Exception Handling/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/Polymorphism/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/Realtionshipss/src"/>
+	<classpathentry kind="src" path="PROGARMING/Principals of OOPS/WrapperClass/src"/>
+	<classpathentry kind="src" path="PROGARMING/Sql In Java/src"/>
+	<classpathentry kind="src" path="PROGARMING/Static Program"/>
+	<classpathentry kind="output" path="Arrays/out/production/Array"/>
+</classpath>

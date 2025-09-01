@@ -14,16 +14,23 @@
     />
   </head>
   <body>
-    <main id="mainBody">
-      <div
-        class="nameBox"
-        data-aos="fade-right"
-        data-aos-anchor-placement="top-center"
-      >
-        <p>Hiii......</p>
-        <h1>I Am Pratik</h1>
-        <p>A Software Developer...</p>
+    <main id="mainBody1">
+      <div id="mainBody">
+        <div
+          class="nameBox"
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+        >
+          <p>Hiii......</p>
+          <h1>I Am Pratik</h1>
+          <p>A Software Developer...</p>
+        </div>
+      
+        <div class="myimg" data-aos="fade-left">
+          <img src="Assets/img1 (2)-modified.jpg" alt="Myself" />
+        </div>
       </div>
+      
       <nav
         data-aos="fade-down"
         data-aos-easing="linear"
@@ -193,7 +200,6 @@
           <h3>Current Project</h3>
           <h2>CoEditX - Real-time Code Editor</h2>
           <p>CoEditX is a web-based application that lets multiple users write, edit, and run code together in real-time—just like working on Google Docs, but for coding.</p><br>
-          <p><strong>Status:</strong> In Progress</p>
         </div>
     
         <!-- Right side: Mini Projects -->
@@ -264,7 +270,10 @@
           <input type="email" placeholder="Your Email" required />
           <textarea placeholder="Your Message" required></textarea>
           <button type="submit">Send Message</button>
-          <button><a href="Assets/Pratik Resume0.pdf" download class="download_resume">Download Resume</a></button>
+          <a href="Assets/Pratik Resume0.pdf" download class="download_resume">
+            <button type="button">Download Resume</button>
+          </a>
+
         </form>
     
         <div class="social_links">
@@ -278,17 +287,16 @@
       </div>
       
     </section>
+    
     <footer class="footer">
       <p>All rights reserved &copy; 2025 Pratik Chaudhari</p>
     </footer>
 
-    
 
-
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
   </body>
 </html>

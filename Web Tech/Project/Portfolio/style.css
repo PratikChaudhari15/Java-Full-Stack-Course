@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 
-#mainBody {
+#mainBody1 {
     width: 100%;
     height: 100vh;
     background: #000000;
@@ -18,33 +18,60 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.nameBox {
-    width: 60%;
-    /*border: 3px solid white;*/
-}
-
-.nameBox>h1 {
+#mainBody {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* for mobile responsiveness */
+    padding: 0 15%;
+    box-sizing: border-box;
+  }
+  
+  .nameBox {
+    flex: 1 1 45%;
     color: white;
-    font-size: 100px;
-}
-
-.nameBox>p {
-    color: white;
-    font-size: 40px;
-}
-
+  }
+  
+  .nameBox > h1 {
+    font-size: 80px;
+    margin: 10px 0;
+  }
+  
+  .nameBox > p {
+    font-size: 32px;
+    margin: 5px 0;
+  }
+  
+  .myimg {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .myimg img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .myimg img:hover {
+    transform: scale(1.05);
+  }
+  
 nav {
     width: 6vw;
     height: 60vh;
-    /*border: 2px solid;*/
     position: fixed;
     left: 20px;
     z-index: 100;
 }
 
 nav>div {
-    /*border: 1px solid snow;*/
+    /* border: 1px solid snow; */
     width: 4vw;
     height: 4vw;
     background: rgb(0, 0, 0);
@@ -680,50 +707,5 @@ p {
     align-items: center;
     font-size: 14px;
     bottom: 0;
-  }
-  
-
-
-@media (max-width: 768px) {
-    .nameBox {
-      font-size: 40px;
-    }
-  
-    .aboutSection {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .leftabout {
-      width: 100%;
-      font-size: 18px;
-      padding: 10px;
-    }
-  
-    .rightabout img {
-      width: 80%;
-      height: auto;
-    }
-  
-    .project_container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .navbar {
-      flex-direction: row;
-      justify-content: space-around;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      z-index: 999;
-      background-color: #0b0c10;
-    }
-  
-    .navbar i {
-      font-size: 20px;
-    }
   }
   

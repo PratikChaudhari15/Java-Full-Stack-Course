@@ -16,7 +16,14 @@ public class PlaylistDriver {
         p1.addSongs("Khairiyat", "Arijit Singh", "4:30", "Amitabh Bhattacharya", "Chhichhore");
 
 
-        p1.removeSong("Kabira","Yeh Jawaani Hai Deewani");
+        p1.showPlaylist();
+        p1.removeSong("Kal Ho Naa Ho", "Kal Ho Naa Ho");
+
+        p1.shuffle();
+        p1.showPlaylist();
+        p1.nextSong();
+        p1.playNext("Dil Diyan Gallan", "Tiger Zinda Hai");
+
         p1.showPlaylist();
     }
 }

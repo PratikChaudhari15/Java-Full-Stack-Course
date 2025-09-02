@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/Arrays/out/production/Array" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Arrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Even ODD" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Patterns/17-02 Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Patterns/18-02Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Patterns/Pattern 15-02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Patterns/Pattern Tejas SIr" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Swaping" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Typescasting/Narroowing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAVA BATCH/Typescasting/Wideing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/04-02 Loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/05-02 LOOP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/07-02Loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/08-02Loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/10-02 for loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/11-02 LOOPS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/12-02 Loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/13-02 NumprogramLoop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/15-02 NumberLoop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/18-02 Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/20-02 Number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/February/Mock TEST 22-02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/IMP Rev Progam" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/20-01 BASIC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/21-01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/22-01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/23-01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/24-01 Op" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/25-01 op" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/26-01 op" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/28-01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/31-01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/conditional op" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/conditional op/prime no" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/January/loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Method Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Methods Program" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/OOPS Non Static/27-03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/OOPS Non Static/Constructor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/OOPS Non Static/Method Chaiing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/Abstraction/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/Derived_TypeCasting/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/Encapsulation/Programs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/Exception Handling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/Polymorphism/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/Realtionshipss/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Principals of OOPS/WrapperClass/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Sql In Java/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROGARMING/Static Program" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
